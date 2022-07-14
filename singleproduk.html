@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Kios Majdi</title>
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="" width="50" height="50" class="me-2">
+        Kios <strong>Majdi</strong>
+      </a>      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notifikasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="keranjang.html">Keranjang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Daftar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Masuk</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto">
+          <input class="form-control me-2" type="search" placeholder="Cari Barang" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Cari</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Breadcrumb -->
+  <div class="container">
+    <nav aria-label="breadcrumb" class="breadcrumb mt-1 p-3">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Kategori</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Produk</li>
+        </ol>
+      </nav>
+  </div>
+  <!-- single produk -->
+  <div class="container">
+    <div class="row row-produk">
+        <div class="col-lg-5">
+            <figure class="figure">
+                <img src="assets/produk/produk3.jpg" class="img-singleproduk figure-img img-fluid" alt="..." width="450px">
+                <figcaption class="figure-caption d-flex justify-content-evenly">
+                    <a href="">
+                        <img src="assets/produk/produk3.jpg" class="img-singleproduk figure-img img-fluid" alt="..." width="70px">  
+                    </a>
+                    <a href="">
+                        <img src="assets/produk/produk3.jpg" class="img-singleproduk figure-img img-fluid" alt="..." width="70px">  
+                    </a>
+                    <a href="">
+                        <img src="assets/produk/produk3.jpg" class="img-singleproduk figure-img img-fluid" alt="..." width="70px">  
+                    </a>
+                    <a href="">
+                        <img src="assets/produk/produk3.jpg" class="img-singleproduk figure-img img-fluid" alt="..." width="70px">  
+                    </a>
+                    <a href="">
+                        <img src="assets/produk/produk3.jpg" class="img-singleproduk figure-img img-fluid" alt="..." width="70px">  
+                    </a>
+                </figcaption>
+              </figure>
+        </div>
+        <div class="col-lg-7">
+            <h4>Nike Air Zoom Pegasus</h4>
+            <div class="garis-produk"></div>
+            <h5 class="text-muted mb-2">Rp. 649.000</h5>
+            <button class="button btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+            <span class="mx-2">1</span>
+            <button class="button btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button>
+            <span class="mx-2">Tersisa 2 Pasang</span>
+            <div class="btn-produk mt-3">
+                <a href="keranjang.html" class="btn btn-secondary btn-lg" style="font-size: 14px;"><i class="fas fa-shopping-cart fs-6 me-2"></i> Masukkan Keranjang</a>
+                <a href="" class="btn btn-warning btn-lg" style="font-size: 14px;">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+    <!-- review -->
+    <div class="row row-produk">
+        <div class="col-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="deskripsi-tab" data-bs-toggle="tab" data-bs-target="#deskripsi" type="button" role="tab" aria-controls="deskripsi aria-selected="true">Deskripsi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="ulasan-tab" data-bs-toggle="tab" data-bs-target="#ulasan" type="button" role="tab" aria-controls="ulasan" aria-selected="false">Ulasan</button>
+                </li>
+              </ul>
+              <div class="tab-content p-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="deskripsi" role="tabpanel" aria-labelledby="deskripsi-tab">
+                    <p>Spesifikasi :</p> 
+                    <p>Syle : Basketball Shoes </p> 
+                    <p>Material : Premium Leather </p>
+                    <p>Desain : Trendy </p>
+                    <p>Color : White </p>
+                    <p>Note : Neat stitching, eyelets, and outsole yang nyaman</p>
+                    <p>Cocok digunakan saat berolahraga setiap hari</p>
+                </div>
+                <div class="tab-pane fade" id="ulasan" role="tabpanel" aria-labelledby="ulasan-tab">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="assets/reviewers.jpg" alt="" class="review-img rounded-circle" width="70px" height="70px">
+                        </div>
+                        <div class="col">
+                            <h5 class="review-name">EM</h5>
+                            <p class="review-desc">Muantabbb poll barangnyaa</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="assets/reviewers.jpg" alt="" class="review-img rounded-circle" width="70px" height="70px">
+                        </div>
+                        <div class="col">
+                            <h5 class="review-name">Majdi</h5>
+                            <p class="review-desc">kurirnya ngambekan gk a6</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="assets/reviewers.jpg" alt="" class="review-img rounded-circle" width="70px" height="70px">
+                        </div>
+                        <div class="col">
+                            <h5 class="review-name">Firman</h5>
+                            <p class="review-desc">next time beli lagi kalo ada diskon beli 1 gratis tulang rusuk</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="assets/reviewers.jpg" alt="" class="review-img rounded-circle" width="70px" height="70px">
+                        </div>
+                        <div class="col">
+                            <h5 class="review-name">Hafsyah</h5>
+                            <p class="review-desc">Barangnya tidak sesuai deskripsi</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-light p-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <a href=""><img src="assets/logo.png" width="35px" alt="" srcset=""></a>
+          <span>copyright ©2022 | Create and Develoved by <a href="https://www.instagram.com/majdifhfsyah_/" class="text-decoration-none fw-bold">Majdi Firman</a></span>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href=""><img src="assets/sosialMedia/facebook.png" width="32px" class="ms-2" alt="" srcset=""></a>
+          <a href=""><img src="assets/sosialMedia/instagram.png" width="30px" class="ms-2" alt="" srcset=""></a>
+          <a href=""><img src="assets/sosialMedia/linkedin.png" width="30px" class="ms-2" alt="" srcset=""></a>
+          <a href=""><img src="assets/sosialMedia/twitter.png" width="30px" class="ms-2" alt="" srcset=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Kios Majdi</title>
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="" width="50" height="50" class="me-2">
+        Kios <strong>Majdi</strong>
+      </a>      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notifikasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="keranjang.html">Keranjang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registrasi.html">Daftar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Masuk</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto">
+          <input class="form-control me-2" type="search" placeholder="Cari Barang" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Cari</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Breadcrumb -->
+  <div class="container">
+    <nav aria-label="breadcrumb" class="breadcrumb mt-1 p-3">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Beranda</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Keranjang</li>
+        </ol>
+      </nav>
+  </div>
+  <!-- Keranjang -->
+  <div class="container">
+    <div class="row row-produk">
+        <div class="col">
+            <table class="table">
+                <thead class="bg-secondary text-white">
+                  <tr>
+                    <th scope="col">Hapus</th>
+                    <th scope="col">Nama Produk</th>
+                    <th scope="col">Harga</th>
+                    <th scope="col">Jumlah</th>
+                    <th scope="col">SubTotal</th>
+                  </tr>
+                </thead>
+                <tbody class="align-middle">
+                  <tr>
+                    <th scope="row"><a href=""><i class="fa-solid fa-trash"></i></a></th>
+                    <td>Nike Air Zoom Pegasus</td>
+                    <td>Rp. 649.000</td>
+                    <td><button class="button btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+                        <span class="mx-2">1</span>
+                        <button class="button btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button>
+                    <td>Rp. 649.000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href=""><i class="fa-solid fa-trash"></i></a></th>
+                    <td>Nike Air Zoom Pegasus</td>
+                    <td>Rp. 649.000</td>
+                    <td><button class="button btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+                        <span class="mx-2">1</span>
+                        <button class="button btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button></td>
+                    <td>Rp. 649.000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href=""><i class="fa-solid fa-trash"></i></a></th>
+                    <td>Nike Air Zoom Pegasus</td>
+                    <td>Rp. 649.000</td>
+                    <td><button class="button btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+                        <span class="mx-2">1</span>
+                        <button class="button btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button></td>
+                    <td>Rp. 649.000</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" colspan="2">Total Belanja</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="fw-bold">Total Harga</td>
+                    <td>Rp. 2.800.000</td>
+                  </tr>
+                  <tr>
+                    <td><button class="btn btn-warning btn-sm">Checkout</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-light p-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <a href=""><img src="assets/logo.png" width="35px" alt="" srcset=""></a>
+          <span>copyright ©2022 | Create and Develoved by <a href="https://www.instagram.com/majdifhfsyah_/" class="text-decoration-none fw-bold">Majdi Firman</a></span>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href=""><img src="assets/sosialMedia/facebook.png" width="32px" class="ms-2" alt="" srcset=""></a>
+          <a href=""><img src="assets/sosialMedia/instagram.png" width="30px" class="ms-2" alt="" srcset=""></a>
+          <a href=""><img src="assets/sosialMedia/linkedin.png" width="30px" class="ms-2" alt="" srcset=""></a>
+          <a href=""><img src="assets/sosialMedia/twitter.png" width="30px" class="ms-2" alt="" srcset=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
